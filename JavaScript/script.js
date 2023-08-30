@@ -43,13 +43,13 @@ const onClick = () => {
     favoriteItemsRow.innerHTML = "";
 
     const favoriteItems = [
-      { name: "Angular", image: "/Images/angular.png", stars: 4 },
-      { name: "Rest API", image: "/Images/responsive.gif", stars: 3 },
-      { name: "Rest API", image: "/Images/responsive.gif", stars: 3 },
-      { name: "Rest API", image: "/Images/responsive.gif", stars: 3 },
-      { name: "Rest API", image: "/Images/responsive.gif", stars: 3 },
-      { name: "Rest API", image: "/Images/responsive.gif", stars: 3 },
-      { name: "Rest API", image: "/Images/responsive.gif", stars: 3 },
+      { name: "Angular", image: "Images/angular.png", stars: 4 },
+      { name: "Rest API", image: "Images/responsive.gif", stars: 3 },
+      { name: "Rest API", image: "Images/responsive.gif", stars: 3 },
+      { name: "Rest API", image: "Images/responsive.gif", stars: 3 },
+      { name: "Rest API", image: "Images/responsive.gif", stars: 3 },
+      { name: "Rest API", image: "Images/responsive.gif", stars: 3 },
+      { name: "Rest API", image: "Images/responsive.gif", stars: 3 },
     ];
 
     favoriteItems.forEach((item) => {
