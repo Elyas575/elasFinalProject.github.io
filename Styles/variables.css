@@ -1,0 +1,17 @@
+:root {
+  --brand-primary: #0768ac;
+  --brand-secondary: #03c180;
+  --bg_default: #ffffff;
+  --bg_body: #f0f7ff;
+  --lines-color: #dddddd;
+  --body-text: #333333;
+  --heart-color: #dc143c;
+
+  --dark-brand-primary: #0768ac;
+  --dark-brand-secondary: #03c180;
+  --dark-bg_default: #1a1a1a;
+  --dark-bg_body: #282828;
+  --dark-lines-color: #000000;
+  --dark-body-text: #ededed;
+  --dark-heart-color: #dc143c;
+}

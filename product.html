@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Styles/variables.css" />
+    <link rel="stylesheet" href="Styles/general.css" />
+    <link rel="stylesheet" href="Styles/details.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="site-title">
+          <h1>Web Topics</h1>
+        </div>
+        <div class="navbar-buttons">
+          <button class="dark-mode-button">
+            <ion-icon
+              class="dark-mode-icon"
+              id="toggleDark"
+              name="moon-outline"
+            ></ion-icon>
+            <span> Dark Mode </span>
+          </button>
+          <button class="Favourites-button">
+            <ion-icon class="favourites-icon" name="heart-outline"></ion-icon>
+            <span> Favourites </span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <div id="welcomeSection" class="welcome-section">
+      <div class="colorful-bar">
+        <div class="left-bar"></div>
+        <div class="right-bar"></div>
+      </div>
+    </div>
+
+    <section class="welcome-container">
+      <div class="welcome-content">
+        <h2 class="welcome-title">Welcome to our website!</h2>
+        <p class="welcome-description">
+          We have a new design that's fresh, modern and easy to use.
+        </p>
+      </div>
+    </section>
+
+    <div class="outer-container" id="outerContainer">
+      <div class="main-1">
+        <div class="content">
+          <div class="box-details-upper">
+            <p class="category-title">Web Development Languages</p>
+            <h2 class="category-name">
+              <b>HTML </b>
+            </h2>
+            <div class="stars-product-container">
+              <ion-icon class="product-stars" name="star"></ion-icon>
+              <ion-icon class="product-stars" name="star"></ion-icon>
+              <ion-icon class="product-stars" name="star"></ion-icon>
+              <ion-icon class="product-stars" name="star"></ion-icon>
+              <ion-icon class="product-stars" name="star-half"></ion-icon>
+            </div>
+
+            <p class="topic-text">
+              HTML (Hypertext Markup Language) is the standard markup language
+              for creating web pages and other information that can be displayed
+              in a web browser. It provides a structure for content and defines
+              how it should be displayed on a web page, including text, images,
+              and multimedia. HTML is essential for creating static web pages
+              and is a foundational technology for the World Wide Web.
+            </p>
+          </div>
+
+          <div class="product-card">
+            <img class="product-image" src="Images/javascript.jpg" />
+
+            <div class="product-lower-container">
+              <div class="product-author-container">
+                <p class="product-author">
+                  <span class="author-category"> HTML </span>
+                  by
+                  <a href="#"> Sarah Smith </a>
+                </p>
+
+                <div class="product-card-details">
+                  <p>Interested about this topic?</p>
+                  <button class="add-favorites-button">
+                    <div class="inner-content">
+                      Add to Favourites
+                      <ion-icon
+                        class="add-to-favorites-icon"
+                        name="heart-outline"
+                      ></ion-icon>
+                    </div>
+                  </button>
+                  <p class="unlimited-credits">Unlimited credits</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-2">
+        <div class="content">
+          <div class="box-details-upper-2" id="boxDetailsUpper">
+            <h2 id="subTopics">HTML Sub Topics</h2>
+            <ul>
+              <li>
+                <ion-icon name="checkmark-circle-outline"></ion-icon>
+                HTML syntax and structure
+              </li>
+              <li>
+                <ion-icon name="checkmark-circle-outline"></ion-icon> HTML
+                elements and attributes
+              </li>
+              <li>
+                <ion-icon name="checkmark-circle-outline"></ion-icon> HTML forms
+                and input elements
+              </li>
+              <li>
+                <ion-icon name="checkmark-circle-outline"></ion-icon> HTML
+                tables and lists
+              </li>
+              <li>
+                <ion-icon name="checkmark-circle-outline"></ion-icon> HTML
+                multimedia elements (audio,video,images)
+              </li>
+              <li>
+                <ion-icon name="checkmark-circle-outline"></ion-icon> HTML
+                Accessibility and semantic markup
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        Developed with &VeryThinSpace;
+        <ion-icon name="heart" class="footer-icon"></ion-icon>
+        &VeryThinSpace; &copy; 2023
+      </footer>
+
+      <div class="favorites-container">
+        <div class="favorite-items-row"></div>
+      </div>
+    </div>
+  </body>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+  ></script>
+
+  <script src="JavaScript/script.js"></script>
+</html>
