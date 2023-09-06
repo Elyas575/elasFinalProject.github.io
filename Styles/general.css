@@ -537,7 +537,6 @@ select {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   max-height: 150px;
-  padding: 2em;
 }
 
 @media screen and (min-width: 319px) and (max-width: 675px) {
@@ -622,4 +621,8 @@ select {
 
 checkmark-circle-outline {
   margin-top: -5em;
+}
+
+.favorites-title {
+  margin-top: 1em;
 }
