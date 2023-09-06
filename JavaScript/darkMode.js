@@ -30,10 +30,8 @@ const removeDarkModeClasses = () => {
 const DarkThemeHandler = (themeColor) => {
   if (themeColor === "DARK") {
     addDarkModeClasses();
-    console.log("Dark mode activated");
   } else {
     removeDarkModeClasses();
-    console.log("Light mode activated");
   }
 };
 
@@ -42,12 +40,10 @@ darkModeButton.addEventListener("click", () => {
     theme = "LIGHT";
     localStorage.setItem("Theme", theme);
     DarkThemeHandler(theme);
-    console.log(theme);
   } else {
     theme = "DARK";
     localStorage.setItem("Theme", theme);
     DarkThemeHandler(theme);
-    console.log(theme);
   }
 });
 

@@ -1,7 +1,7 @@
-
 const favoritesButton = document.querySelector(".Favourites-button");
 const favoritesContainer = document.querySelector(".favorites-container");
 const favoriteItemsRow = document.querySelector(".favorite-items-row");
+import { getCardsData, FetchAllCards } from "./DataAccess.js";
 
 const onClick = () => {
   favoritesContainer.classList.toggle("hidden");
@@ -28,11 +28,15 @@ const onClick = () => {
       imageElement.src = item.image;
 
       const nameElement = document.createElement("p");
+      nameElement.style.paddingRight = "1em";
+      nameElement.style.paddingLeft = "1em";
       nameElement.classList.add("name");
       nameElement.innerHTML = `<b>${item.name}</b>`;
 
       const starsContainer = document.createElement("div");
       starsContainer.classList.add("stars-container");
+      starsContainer.style.paddingRight = "1em";
+      starsContainer.style.paddingLeft = "1em";
 
       for (let i = 0; i < item.stars; i++) {
         const starIcon = document.createElement("ion-icon");
