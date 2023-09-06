@@ -40,7 +40,7 @@ export function createCard(cardData) {
 }
 
 export function populateCards(container, data) {
-  for (let i = 0; i < 16; i++) {
+  for (let i = 0; i < 20; i++) {
     const cardData = data[i];
     const card = createCard(cardData);
     container.appendChild(card);
