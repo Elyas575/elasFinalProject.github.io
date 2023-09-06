@@ -1,7 +1,6 @@
 const favoritesButton = document.querySelector(".Favourites-button");
 const favoritesContainer = document.querySelector(".favorites-container");
 const favoriteItemsRow = document.querySelector(".favorite-items-row");
-import { getCardsData, FetchAllCards } from "./DataAccess.js";
 
 const onClick = () => {
   favoritesContainer.classList.toggle("hidden");

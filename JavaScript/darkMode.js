@@ -5,11 +5,14 @@ const outterContainer = document.getElementById("outerContainer");
 const boxDetailsUpper = document.getElementById("boxDetailsUpper");
 const boxDetailsUpper2 = document.getElementById("subTopics");
 const darkModeButton = document.querySelector(".dark-mode-button");
-
+const textTheme = document.querySelector(".theme-text");
 let theme = localStorage.getItem("Theme") || "LIGHT";
 localStorage.setItem("Theme", theme);
 
 const addDarkModeClasses = () => {
+  console.log("LOL");
+  textTheme.innerText = "Light Mode";
+
   body.classList.add("dark-mode");
   footer.classList.add("dark-mode");
   colorfulBar.classList.add("dark-mode");
@@ -19,6 +22,8 @@ const addDarkModeClasses = () => {
 };
 
 const removeDarkModeClasses = () => {
+  console.log("LOL");
+  textTheme.innerText = "Dark Mode";
   body.classList.remove("dark-mode");
   footer.classList.remove("dark-mode");
   colorfulBar.classList.remove("dark-mode");
