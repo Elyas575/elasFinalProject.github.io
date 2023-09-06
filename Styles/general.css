@@ -72,9 +72,6 @@ body.dark-mode .card {
   border: 1px solid var(--lines-color-dark);
 }
 
-body.dark-mode .card-details img {
-}
-
 body.dark-mode .container {
   background-color: #282828;
 }
@@ -586,8 +583,7 @@ select {
     border: none;
     border-bottom-left-radius: 5px;
   }
-  .search-icon {
-  }
+
 }
 
 .search-icon {
@@ -602,8 +598,6 @@ select {
   color: #ededed;
 }
 
-.dark-mode .search-bar {
-}
 
 .dark-mode .search-input {
   background-color: var(--dark-bg_default);
@@ -616,9 +610,6 @@ select {
 
 .dark-mode .sort-content {
   background-color: var(--dark-bg_default);
-}
-
-.dark-mode .dropdowns {
 }
 
 .dark-mode .sort-by-default {
