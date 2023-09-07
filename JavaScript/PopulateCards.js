@@ -33,8 +33,7 @@ export function createCard(cardData) {
         </div>
         <p class="author">Author: ${cardData.name}</p>
       </div>
-    </div>
-  `;
+    </div> `;
 
   return card;
 }
