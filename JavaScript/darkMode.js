@@ -1,6 +1,6 @@
 const body = document.body;
 const footer = document.querySelector("footer");
-const colorfulBar = document.getElementById("welcomeSection");
+const colorfulBar = document.querySelector(".welcome-section");
 const outterContainer = document.getElementById("outerContainer");
 const boxDetailsUpper = document.getElementById("boxDetailsUpper");
 const boxDetailsUpper2 = document.getElementById("subTopics");
