@@ -10,7 +10,6 @@ let theme = localStorage.getItem("Theme") || "LIGHT";
 localStorage.setItem("Theme", theme);
 
 const addDarkModeClasses = () => {
-  console.log("LOL");
   textTheme.innerText = "Light Mode";
 
   body.classList.add("dark-mode");
@@ -22,7 +21,6 @@ const addDarkModeClasses = () => {
 };
 
 const removeDarkModeClasses = () => {
-  console.log("LOL");
   textTheme.innerText = "Dark Mode";
   body.classList.remove("dark-mode");
   footer.classList.remove("dark-mode");
