@@ -2,7 +2,7 @@ import { generateStars } from "../Shared/StarsGenerator.js";
 
 export function createCard(cardData) {
   const card = document.createElement("a");
-  card.href = "product.html";
+  card.href = `product.html`;
   card.className = "card";
 
   card.innerHTML = `
