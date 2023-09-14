@@ -1,4 +1,4 @@
-import { populateCards } from "../Presentation/cardsPopulator.js";
+import { populateCards } from "../Presentation/CardsPopulator.js";
 import {
   fetchCardsBySearchTerm,
   FetchAllCards,
@@ -9,7 +9,7 @@ import {
   extractCategories,
   populateFilterDropdown,
   sortAndFilterCardsByCategory,
-} from "./filtering.js";
+} from "./Filtering.js";
 
 const sortInput = document.getElementById("sort-field");
 const searchInput = document.getElementById("search");

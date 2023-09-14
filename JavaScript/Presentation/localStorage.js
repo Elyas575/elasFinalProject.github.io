@@ -1,4 +1,4 @@
-import { DarkThemeHandler } from "./darkMode.js";
+import { DarkThemeHandler } from "./DarkModeHandler.js";
 
 const darkModeButton = document.querySelector(".dark-mode-button");
 
