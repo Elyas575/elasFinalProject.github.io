@@ -1,10 +1,10 @@
-import { FetchAllCards } from "./API/dataAccess.js";
+import { FetchAllCards } from "./API/DataAccess.js";
 import { populateCards } from "./Presentation/cardsPopulator.js";
 import {
   showLoadingScreen,
   hideLoadingScreen,
 } from "./Shared/LoadingScreen.js";
-import { InitializeSearchEventListener } from "./Search/cardManager.js";
+import { InitializeSearchEventListener } from "./Search/CardManager.js";
 
 async function main() {
   const cardContainer = document.getElementById("card-container");
