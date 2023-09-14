@@ -9,7 +9,7 @@ import {
   extractCategories,
   populateFilterDropdown,
   sortAndFilterCardsByCategory,
-} from "./Filtering.js";
+} from "./filtering.js";
 
 const sortInput = document.getElementById("sort-field");
 const searchInput = document.getElementById("search");
