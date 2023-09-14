@@ -3,7 +3,7 @@ import {
   fetchCardsBySearchTerm,
   FetchAllCards,
   getCardById,
-} from "../API/dataAccess.js";
+} from "../API/DataAccess.js";
 
 import {
   extractCategories,
