@@ -2,6 +2,8 @@ const favoritesButton = document.querySelector(".Favourites-button");
 const favoritesContainer = document.querySelector(".favorites-container");
 const favoriteItemsRow = document.querySelector(".favorite-items-row");
 
+
+// function to toggle to toggle and style the favorites container
 const onClick = () => {
   favoritesContainer.classList.toggle("hidden");
 

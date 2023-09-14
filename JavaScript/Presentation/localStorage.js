@@ -5,6 +5,7 @@ const darkModeButton = document.querySelector(".dark-mode-button");
 let theme = localStorage.getItem("Theme") || "LIGHT";
 localStorage.setItem("Theme", theme);
 
+// function to handle local storage based on button clicks
 darkModeButton.addEventListener("click", () => {
   if (theme === "DARK") {
     theme = "LIGHT";

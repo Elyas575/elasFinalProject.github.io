@@ -19,11 +19,13 @@ let selectedCategory = "Default";
 let cards = await FetchAllCards();
 let timer;
 
+// function to initialize the search event listener
 export async function InitializeSearchEventListener() {
-  const categories = extractCategories(cards);
-  populateFilterDropdown(categories);
-  populateCards(container, cards);
+  const categories = extractCategories(cards); // extract categories from card data
+  populateFilterDropdown(categories); // populate the filter dropdown with categories
+  populateCards(container, cards); // populate/updates the card data
 
+  //Search field event listener that does the searching
   searchInput.addEventListener("input", async (e) => {
     clearTimeout(timer);
     timer = setTimeout(async () => {
@@ -33,11 +35,11 @@ export async function InitializeSearchEventListener() {
       populateCards(container, cards);
     }, 300);
   });
-
+  //sort field event listener that does the sorting
   sortInput.addEventListener("change", async (e) => {
     let sortBy = e.target.value;
     let sortedCards;
-
+// function to sort and filter cards by a selected category
     const filteredCards = sortAndFilterCardsByCategory(cards, selectedCategory);
 
     switch (sortBy) {
@@ -60,13 +62,14 @@ export async function InitializeSearchEventListener() {
     populateCards(container, sortedCards);
   });
 }
-
+//  listen for changes in the filter dropdown
 filterDropdown.addEventListener("change", async (e) => {
   selectedCategory = e.target.value;
+
   const filteredAndSortedCards = sortAndFilterCardsByCategory(
     cards,
     selectedCategory
-  );
+  ); // Sort and filter cards based on the selected category
   container.innerHTML = "";
   populateCards(container, filteredAndSortedCards);
 });

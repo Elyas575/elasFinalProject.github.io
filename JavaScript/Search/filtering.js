@@ -1,5 +1,5 @@
 const filterDropdown = document.querySelector(".sort-by-filter");
-
+// extract categories from card data
 export function extractCategories(cards) {
   const categories = [];
 
@@ -11,6 +11,7 @@ export function extractCategories(cards) {
 
   return categories;
 }
+// populate the filter dropdown with categories
 export function populateFilterDropdown(categories) {
   categories.forEach((category) => {
     const option = document.createElement("option");
@@ -20,6 +21,7 @@ export function populateFilterDropdown(categories) {
   });
 }
 
+// function to sort and filter cards by a selected category
 export function sortAndFilterCardsByCategory(cards, selectedCategory) {
   if (selectedCategory === "Default") {
     return cards;

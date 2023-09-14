@@ -1,5 +1,7 @@
 import { generateStars } from "../Shared/StarsGenerator.js";
 
+
+// function to create a card based on given card data
 export function createCard(cardData) {
   const card = document.createElement("a");
   card.href = `product.html`;
@@ -24,6 +26,7 @@ export function createCard(cardData) {
   return card;
 }
 
+// function to populate a container with cards based on their data
 export function populateCards(container, data) {
   for (let i = 0; i < data.length; i++) {
     const cardData = data[i];

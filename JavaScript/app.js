@@ -6,6 +6,8 @@ import {
 } from "./Shared/LoadingScreen.js";
 import { InitializeSearchEventListener } from "./Search/CardManager.js";
 
+
+// main function to start the application
 async function main() {
   const cardContainer = document.getElementById("card-container");
   const loadingMessage = showLoadingScreen(cardContainer);
@@ -21,4 +23,5 @@ async function main() {
   }
 }
 
+// call the application to start
 main();
