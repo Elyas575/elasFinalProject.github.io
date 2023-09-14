@@ -4,7 +4,7 @@ import {
   showLoadingScreen,
   hideLoadingScreen,
 } from "./Shared/LoadingScreen.js";
-import { InitializeSearchEventListener } from "./Search/cardsManager.js";
+import { InitializeSearchEventListener } from "./Search/cardManager.js";
 
 async function main() {
   const cardContainer = document.getElementById("card-container");
