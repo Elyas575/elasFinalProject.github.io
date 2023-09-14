@@ -1,9 +1,9 @@
-import { populateCards } from "../Presentation/PopulateCards.js";
+import { populateCards } from "../Presentation/cardsPopulator.js";
 import {
   fetchCardsBySearchTerm,
   FetchAllCards,
   getCardById,
-} from "../API/DataAccess.js";
+} from "../API/dataAccess.js";
 
 import {
   extractCategories,
