@@ -1,6 +1,5 @@
 import { generateStars } from "../Shared/StarsGenerator.js";
 
-
 // function to create a card based on given card data
 export function createCard(cardData) {
   const card = document.createElement("a");

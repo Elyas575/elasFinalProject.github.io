@@ -1,4 +1,4 @@
-import { populateCards } from "../Presentation/CardsPopulator.js";
+import { populateCards } from "../Presentation/cardsPopulator.js";
 import {
   fetchCardsBySearchTerm,
   FetchAllCards,

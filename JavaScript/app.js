@@ -1,10 +1,10 @@
 import { FetchAllCards } from "./API/DataAccess.js";
-import { populateCards } from "./Presentation/CardsPopulator.js";
+import { populateCards } from "./Presentation/cardsPopulator.js";
 import {
   showLoadingScreen,
   hideLoadingScreen,
 } from "./Shared/LoadingScreen.js";
-import { InitializeSearchEventListener } from "./Search/CardsManager.js";
+import { InitializeSearchEventListener } from "./Search/cardsHandler.js";
 
 // main function to start the application
 async function main() {
