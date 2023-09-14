@@ -6,7 +6,6 @@ import {
 } from "./Shared/LoadingScreen.js";
 import { InitializeSearchEventListener } from "./Search/CardManager.js";
 
-
 // main function to start the application
 async function main() {
   const cardContainer = document.getElementById("card-container");

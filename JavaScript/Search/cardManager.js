@@ -39,7 +39,7 @@ export async function InitializeSearchEventListener() {
   sortInput.addEventListener("change", async (e) => {
     let sortBy = e.target.value;
     let sortedCards;
-// function to sort and filter cards by a selected category
+    // function to sort and filter cards by a selected category
     const filteredCards = sortAndFilterCardsByCategory(cards, selectedCategory);
 
     switch (sortBy) {
